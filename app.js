@@ -16,10 +16,10 @@ const getTimeUnit = unit => unit < 10 ? "0" + unit : unit
 
 const inserCountdownValues = ({ days, hours, minuts, seconds }) => {
 
-  daysContainer.textContent = getTimeUnit(seconds)
-  hoursContainer.textContent = getTimeUnit(minuts)
-  minutsContainer.textContent = getTimeUnit(hours)
-  secondsContainer.textContent = getTimeUnit(days)
+  daysContainer.textContent = getTimeUnit(days)
+  hoursContainer.textContent = getTimeUnit(hours)
+  minutsContainer.textContent = getTimeUnit(minuts)
+  secondsContainer.textContent = getTimeUnit(seconds)
 }
 
 
